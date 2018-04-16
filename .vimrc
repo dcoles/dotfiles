@@ -49,3 +49,6 @@ set nomodeline
 
 " Automatic ctags
 "au BufWritePost .c,.cpp,*.h silent! !ctags -R &
+
+" Paste shortcut
+set pastetoggle=<leader>t
