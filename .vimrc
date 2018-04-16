@@ -9,6 +9,9 @@ set textwidth=80
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set colorcolumn=+1
+set list
+set listchars=nbsp:¬,tab:>-,extends:»,precedes:«,trail:•
 set expandtab
 set autoindent
 
@@ -23,12 +26,6 @@ set wildmenu
 
 " Highlight search results
 set hlsearch
-
-" Highlight tabs and trailing spaces
-autocmd BufNewFile,BufRead * set list listchars=tab:>.,trail:-
-
-" Highlight lines that are too long
-autocmd BufNewFile,BufRead * match Error /\%>80v.\+/
 
 " Mouse
 set mouse=a
