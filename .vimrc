@@ -1,3 +1,6 @@
+" Use vim
+set nocompatible
+
 " Numbers
 set number
 
