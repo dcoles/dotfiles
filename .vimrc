@@ -12,10 +12,11 @@ set softtabstop=4
 set expandtab
 set autoindent
 
-" Syntax
+" Syntax highlighting
 syntax on
-"color desert
-color koehler
+set background=dark
+color desert
+"color koehler
 
 " Autocomplete menu
 set wildmenu
