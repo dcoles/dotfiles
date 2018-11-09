@@ -12,9 +12,13 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " YCM
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
+
+" syntastic
+Plugin 'scrooloose/syntastic'
+let g:syntastic_python_python_exec = '/usr/bin/python3'
 
 " Airline
 Plugin 'vim-airline/vim-airline'
