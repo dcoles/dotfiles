@@ -91,5 +91,11 @@ set nomodeline
 " Automatic ctags
 "au BufWritePost .c,.cpp,*.h silent! !ctags -R &
 
+" HTML uses 2 spaces
+autocmd BufRead,BufNewFile *.htm,*.html setlocal tabstop=2 shiftwidth=2 softtabstop=2
+
+" Update diff on write
+autocmd BufWritePost * if &diff == 1 | diffupdate | endif
+
 " Paste shortcut
 set pastetoggle=<leader>t
