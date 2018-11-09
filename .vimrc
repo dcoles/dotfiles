@@ -29,6 +29,12 @@ Plugin 'tpope/vim-fugitive'
 " gitgutter
 Plugin 'airblade/vim-gitgutter'
 
+" vim-jsonnet
+Plugin 'google/vim-jsonnet'
+
+" Bracketed paste
+Plugin 'ConradIrwin/vim-bracketed-paste'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
